@@ -1,0 +1,7 @@
+# promptos_backend/requirements.txt
+fastapi
+uvicorn
+loguru
+pydantic
+redis
+motor

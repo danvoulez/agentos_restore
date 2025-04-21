@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+
+# Logs
+*.log
+
+# Node.js
+node_modules/
+
+# Build artifacts
+dist/
+build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+*.patch
+*.diff

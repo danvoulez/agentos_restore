@@ -1,0 +1,5 @@
+# promptos_backend/pyproject.toml
+[tool.ruff]
+line-length = 88
+select = ["E", "W", "F", "I", "C4", "B", "UP", "ANN", "S"]
+ignore = ["E501"]

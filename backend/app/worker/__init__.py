@@ -1,0 +1,2 @@
+# promptos_backend/app/worker/__init__.py
+# This file makes the directory a Python package

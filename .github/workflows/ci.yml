@@ -1,0 +1,72 @@
+# .github/workflows/ci.yml
+name: AgentOS Backend CI
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'promptos_backend/**'
+      - '.github/workflows/ci.yml'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'promptos_backend/**'
+      - '.github/workflows/ci.yml'
+
+jobs:
+  lint-test-backend:
+    name: Lint & Test Backend
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+
+    - name: Install Dependencies
+      run: |
+
+    - name: Lint with Ruff
+      run: ruff check . --output-format=github
+
+    - name: Format Check with Ruff
+      run: ruff format . --check
+
+    - name: Type Check with Mypy
+      run: mypy .
+
+    - name: Run Tests with Pytest and Coverage
+      # Pass secrets or dummy env vars needed for tests
+      run: pytest
+
+  lint-test-pessoas:
+    name: Lint & Test Pessoas Service
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+
+    - name: Install Dependencies
+      run: |
+
+    - name: Lint with Ruff
+      # Consider adding a pyproject.toml for ruff/mypy/pytest in agentos-pessoas too
+      run: ruff check . --output-format=github
+
+    - name: Format Check with Ruff
+      run: ruff format . --check
+
+    - name: Type Check with Mypy
+      run: mypy .
+
+    - name: Run Tests with Pytest and Coverage
+      # env:
+      run: pytest
