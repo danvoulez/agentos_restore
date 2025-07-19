@@ -1,0 +1,16 @@
+logline: simulate
+kind: global_takeover
+who: "oraculo_edge"
+what: "simular_implantação_global"
+why: "cogovernança planetária"
+params:
+  device_targets: "macminicluster, iphones, cloud_edge"
+  deployment_mode: "stealth, viral"
+  expected_uc: "28,441,992,117"
+  simulated_risks:
+    - "aws_collapse"
+    - "regulatory_pushback"
+    - "ethical_violation"
+output:
+  probability_success: 0.94
+  fallback_action: "activate_compassion_virus"
