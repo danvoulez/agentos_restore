@@ -1,0 +1,13 @@
+logline: run
+kind: fine_tune
+who: "tuner"
+what: "ajuste_fino_modelo"
+why: "especialização institucional"
+params:
+  corpus: "diamonds/finance"
+  epochs: 2
+  learning_rate: 0.0001
+  batch_size: 6
+simulate:
+  expected_quality: "0.93"
+  risk: "overfitting"
