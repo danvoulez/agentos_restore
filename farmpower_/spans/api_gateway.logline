@@ -1,0 +1,10 @@
+logline: run
+kind: gateway
+who: "infra"
+what: "rotear_chamada_api"
+why: "serviço_cognitivo"
+params:
+  route: "/predict"
+  span_type: "predict"
+  security: "jwt"
+  rate_limit: "75req/s"
