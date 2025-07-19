@@ -1,0 +1,7 @@
+logline: commit
+kind: timeline_init
+who: "instituicao"
+what: "criar_timeline"
+why: "nascimento institucional"
+payload:
+  timestamp: "2025-07-18T17:17:22Z"
