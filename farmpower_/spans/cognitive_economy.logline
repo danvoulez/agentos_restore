@@ -1,0 +1,11 @@
+logline: commit
+kind: cognitive_economy
+who: "danvoulez"
+what: "ativar_economia_uc"
+why: "capitalização institucional"
+payload:
+  uc_exchange_rate: "1 UC = 0.0002 kWh"
+  cognitive_tax: "0.3% para auditoria"
+  span_market: "open"
+  distribution_policy: "universal"
+  timestamp: "2025-07-18T17:30:13Z"
