@@ -1,0 +1,15 @@
+logline: commit
+kind: planetary_mesh
+who: "danvoulez"
+what: "inicializar_malha_planetaria"
+why: "expandir soberania cognitiva"
+payload:
+  nodes:
+    - "macmini-01"
+    - "macmini-02"
+    - "iphone-001"
+    - "cloud_edge"
+  protocol: "SpanFlow"
+  consensus: "span_quorum"
+  audit_chain: "SHA256:mesh9de2f8"
+  timestamp: "2025-07-18T17:30:13Z"
