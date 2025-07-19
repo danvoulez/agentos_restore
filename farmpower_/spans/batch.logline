@@ -1,0 +1,12 @@
+logline: run
+kind: batch
+who: "dataloader"
+what: "carregar_lote_reversivel"
+why: "alimentar treino com rastreabilidade"
+params:
+  source: "corpus.diamante"
+  batch_size: 4  # Limite M1
+  transform:
+    - span_encode
+    - causal_mask
+reversible_strategy: "hash_diff"
