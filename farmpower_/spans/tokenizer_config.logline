@@ -1,0 +1,11 @@
+logline: run
+kind: tokenizer_config
+who: "sistema"
+what: "construir_tokenizer"
+why: "traduzir corpus para spans"
+params:
+  type: "BPE"
+  vocab_size: 32000
+  special_tokens: ["[SPAN]", "[COLAPSO]", "[REVERSO]"]
+reversible: true
+compensate_action: "destruir_vocabulario_temporario"
