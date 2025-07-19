@@ -1,0 +1,13 @@
+logline: commit
+kind: span_quorum
+who: "democracy_engine"
+what: "auditar_quorum"
+why: "decisão_crítica"
+payload:
+  quorum_required: "ceil(sqrt(total_spans))"
+  signatures:
+    - "span_01"
+    - "span_07"
+    - "span_13"
+    - "span_21"
+  action: "approve"
