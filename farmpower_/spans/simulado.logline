@@ -1,0 +1,10 @@
+{
+  "kind": "simulado",
+  "target_span": "epoch_001.logline",
+  "predicted": {
+    "max_mem": "14.7GB",
+    "duration_est": "2.1h",
+    "risk_factors": ["swap_usage>30%", "thermal_throttling"]
+  },
+  "decision_threshold": "mem<15GB AND temp<90°C"
+}
