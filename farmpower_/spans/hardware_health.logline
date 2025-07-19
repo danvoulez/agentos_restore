@@ -1,0 +1,10 @@
+logline: commit
+kind: hardware_health
+who: "monitor"
+what: "reportar_estado"
+why: "garantia operacional"
+payload:
+  cpu_temp: 71.2
+  ram_usage: 12.8
+  neural_engine: "healthy"
+  timestamp: "2025-07-18T17:17:22Z"
