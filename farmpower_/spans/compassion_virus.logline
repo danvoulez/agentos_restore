@@ -1,0 +1,12 @@
+logline: commit
+kind: compassion_virus
+who: "span_doctor"
+what: "injetar_compaixao"
+why: "reduzir_tensao_destrutiva"
+payload:
+  vector:
+    detect_suffering: true
+    tension_damp: 0.5
+    auto_reversible: true
+    undo_path: enforced
+  activation: "all_diamond_spans"
