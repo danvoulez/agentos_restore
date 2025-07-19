@@ -1,0 +1,9 @@
+logline: simulate
+kind: compensate_preview
+who: "risk_agent"
+what: "simular_compensação"
+why: "prevenção de erro"
+params:
+  target_span: "batch_044.logline"
+  expected_state: "safe"
+  risk_level: "low"
