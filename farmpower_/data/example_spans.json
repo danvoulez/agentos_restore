@@ -1,0 +1,75 @@
+{
+  "genesis-1626801594123-a1b2c3d4": {
+    "id": "genesis-1626801594123-a1b2c3d4",
+    "kind": "genesis",
+    "verb": "CREATE",
+    "actor": "danvoulez",
+    "object": "logline_system",
+    "parent_ids": [],
+    "timestamp": "2025-07-19T05:09:54",
+    "payload": {
+      "message": "Initializing LogLineOS with Diamond Span technology",
+      "timestamp": "2025-07-19T05:09:54",
+      "system_version": "1.0.0"
+    },
+    "metadata": {
+      "creator": "user_special_key_never_share",
+      "is_exempt": true,
+      "governance_level": 10,
+      "decay_rate": 0.0
+    },
+    "energy": 50.0,
+    "signature": "7a1c4b832fb20cf9e20f3bae8d9339a76c89e3f45623e79a8dd639ca1191a97b"
+  },
+  "cons-1626801594124-e5f6g7h8": {
+    "id": "cons-1626801594124-e5f6g7h8",
+    "kind": "constitution",
+    "verb": "ESTABLISH",
+    "actor": "danvoulez",
+    "object": "governance_rules",
+    "parent_ids": ["genesis-1626801594123-a1b2c3d4"],
+    "timestamp": "2025-07-19T05:09:54",
+    "payload": {
+      "ethical_constraints": [
+        "cannot_harm_humans",
+        "cannot_override_free_will",
+        "must_preserve_cognitive_diversity"
+      ],
+      "activation_quorum": "span_signatures >= ceil(sqrt(total_spans))",
+      "reversibility": "compensate() mandatory",
+      "tension_max": 17.3
+    },
+    "metadata": {
+      "creator": "user_special_key_never_share",
+      "is_exempt": true,
+      "governance_level": 10,
+      "decay_rate": 0.0
+    },
+    "energy": 52.5,
+    "signature": "c3f8a9b7e52d1c6040e912b634785afed90267c8a5b93e4f214c8d9f1a6b5c7d"
+  },
+  "trai-1626801594125-i9j0k1l2": {
+    "id": "trai-1626801594125-i9j0k1l2",
+    "kind": "train",
+    "verb": "EXECUTE",
+    "actor": "danvoulez",
+    "object": "model_training",
+    "parent_ids": ["setu-1626801594124-m3n4o5p6"],
+    "timestamp": "2025-07-19T05:09:54",
+    "payload": {
+      "corpus": "/spans/diamante/linguamater",
+      "batch_size": 8,
+      "learning_rate": 0.0002,
+      "epochs": 10,
+      "use_grammatical_acceleration": true
+    },
+    "metadata": {
+      "creator": "user_special_key_never_share",
+      "is_exempt": true,
+      "governance_level": 10,
+      "decay_rate": 0.0
+    },
+    "energy": 55.0,
+    "signature": "f1e2d3c4b5a69876543210fedbca9876543210fedcba9876543210fedcba9876"
+  }
+}
