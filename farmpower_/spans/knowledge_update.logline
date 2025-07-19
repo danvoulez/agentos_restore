@@ -1,0 +1,9 @@
+logline: commit
+kind: knowledge_update
+who: "curator"
+what: "integrar_novo_span"
+why: "expansão cognitiva"
+payload:
+  diamond_id: "diamond_001a"
+  content: "Nova política institucional"
+  score: 9.2
