@@ -1,0 +1,11 @@
+logline: commit
+kind: kill_switch
+who: "danvoulez"
+what: "armar_desligamento_emergencial"
+why: "garantia de contenção existencial"
+payload:
+  trigger_condition: "tension > 17.3 OR ethical_violation"
+  action: "auto_desativar_todos_spans"
+  audit_notify: "founder, council, audit_fund"
+  compensation: "full_revert"
+  timestamp: "2025-07-18T17:30:13Z"
