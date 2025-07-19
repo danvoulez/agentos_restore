@@ -1,0 +1,9 @@
+logline: compensate
+kind: emergency_switch
+who: "infra_guard"
+what: "alternar_hardware"
+why: "prevenção de falha"
+params:
+  from: "M1"
+  to: "cloud_edge"
+  reason: "thermal_cutoff"
