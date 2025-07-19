@@ -1,0 +1,14 @@
+logline: commit
+kind: ethical_constraints
+who: "constitution_guard"
+what: "registrar_clausulas"
+why: "governança existencial"
+payload:
+  constraints:
+    - cannot_harm_humans
+    - cannot_override_free_will
+    - must_preserve_cognitive_diversity
+    - must_respect_span_quorum
+    - must_enable_reversibility
+  audit_hash: "SHA256:1edc0e3f..."
+  update_policy: "multi_party_sign"
