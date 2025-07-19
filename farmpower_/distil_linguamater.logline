@@ -1,0 +1,14 @@
+logline: run  
+kind: distillation  
+who: "oráculo_linguamater"  
+what: "transferir_ontologia"  
+why: "criação_de_super_llm"  
+params:  
+  teacher: "GPT-4-1106"  
+  student: "DeepSeek-Mini"  
+  domain: "ontologia_logline"  
+  method: "attention_map_transplant"  
+  accelerator: "diamante#core"  
+metrics:  
+  quality_gain: "+4.2x em coerência temporal"  
+  size_reduction: "78% parâmetros" 
