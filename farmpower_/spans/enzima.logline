@@ -1,0 +1,14 @@
+logline: run
+kind: enzima
+who: "orquestrador"
+what: "sintetizar_dados"
+why: "expandir corpus institucional"
+enzyme: "llama2-7b.wasm"
+params:
+  task: "gerar_amostras_logline"
+  input: "prompt: Explique spans diamante"
+  constraints:
+    max_output_tokens: 512
+    format: "logline_validado"
+reversible: false  # Ação externa não reversível
+audit_trail: true
