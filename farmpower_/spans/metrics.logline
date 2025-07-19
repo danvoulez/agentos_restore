@@ -1,0 +1,13 @@
+logline: commit
+kind: metricas
+who: "monitor_constitucional"
+what: "reportar_desempenho"
+why: "auditoria_continua"
+payload:
+  epoch: 3
+  time_per_batch: 42.3s
+  watts_used: 12.7
+  tokens_per_joule: 350
+  tension: 7.2  # Δ(institucional)
+  grammar_cohesion: 0.87
+  cognitive_capital: 1420.5
