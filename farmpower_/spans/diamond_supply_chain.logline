@@ -1,0 +1,13 @@
+logline: commit
+kind: supply_chain
+who: "provenance_auditor"
+what: "registrar_origem"
+why: "rastreabilidade absoluta"
+payload:
+  diamond_id: "X8J9"
+  creation_span: "diamante_core_001"
+  transformation_spans:
+    - "inject_linguamater"
+    - "compile_metal"
+    - "serve_live"
+  audit_chain: "SHA256:9de2f8..."
