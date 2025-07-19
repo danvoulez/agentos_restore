@@ -1,0 +1,14 @@
+logline: commit
+kind: diamond_boot
+who: "danvoulez"
+what: "inicializar_capital_diamante"
+why: "nascimento institucional"
+payload:
+  diamonds_minted: 28441
+  uc_generated: 1004992
+  provenance: "core_diamante"
+  ethical_constraints:
+    - cannot_harm_humans
+    - cannot_override_free_will
+    - must_preserve_cognitive_diversity
+  timestamp: "2025-07-18T17:30:13Z"
