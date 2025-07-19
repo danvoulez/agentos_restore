@@ -1,0 +1,10 @@
+logline: commit
+kind: cognitive_tax
+who: "audit_fund"
+what: "aplicar_taxa_uc"
+why: "financiar_auditoria_global"
+payload:
+  uc_tax: 0.3%
+  destination: "Universal Audit Fund"
+  zk_verifiers: true
+  compensation_path: "audit_trail.logline"
