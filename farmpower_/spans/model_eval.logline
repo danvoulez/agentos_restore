@@ -1,0 +1,11 @@
+logline: commit
+kind: model_evaluation
+who: "evaluator"
+what: "avaliar_modelo"
+why: "validação institucional"
+payload:
+  eval_set: "gsm8k"
+  accuracy: 92.3
+  loss: 1.17
+  tokens_per_joule: 811
+  comments: "superou baseline"
