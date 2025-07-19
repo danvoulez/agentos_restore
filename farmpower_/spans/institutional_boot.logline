@@ -1,0 +1,15 @@
+logline: commit
+kind: institution_boot
+who: "danvoulez"
+what: "bootar_instituição"
+why: "ativação soberania cognitiva"
+payload:
+  hardware: "Mac Mini M1"
+  os: "LogLineOS"
+  initial_spans:
+    - "diamond_boot"
+    - "constitution"
+  status: "active"
+  audit_trail: "audit_trail.logline"
+  ethical_constraints: "ethical_constraints.logline"
+  timestamp: "2025-07-18T17:30:13Z"
