@@ -1,0 +1,15 @@
+logline: simulate
+kind: quantum
+who: "oraculo_institucional"
+what: "amostrar_futuros"
+why: "decisao_pre_cognitiva"
+params:
+  target_span: "epoch_full.logline"
+  samples: 256
+  collapse_condition: "mem_peak < 15GB && quality > 0.92"
+output:
+  probability_valid: 0.87
+  futures:
+    - {mem: 14.2GB, quality: 0.96, probability: 0.38}
+    - {mem: 15.1GB, quality: 0.99, probability: 0.12}
+    - {mem: 13.1GB, quality: 0.91, probability: 0.50}
