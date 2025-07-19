@@ -1,0 +1,9 @@
+logline: compensate
+kind: emergency_action
+who: "tensor_guard"
+what: "reduzir_batch_size"
+why: "prevenção_overflow_memória"
+target_span: "batch_043.logline"
+params:
+  new_batch_size: 2
+  compensation_hash: "a1b2c3..."
