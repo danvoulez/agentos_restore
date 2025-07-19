@@ -1,0 +1,9 @@
+logline: commit
+kind: governance_policy
+who: "council"
+what: "alterar_politica"
+why: "adaptação institucional"
+payload:
+  rule_id: "R-002"
+  change: "batch_size_max=10"
+  effective_from: "2025-07-19"
