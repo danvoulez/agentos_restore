@@ -1,0 +1,12 @@
+logline: run
+kind: api
+who: "client"
+what: "predict"
+why: "serviço_cognitivo"
+params:
+  input: "Explique spans diamante"
+  max_tokens: 100
+  temperature: 0.7
+expect:
+  format: "json_auditavel"
+compensate_action: "invalidar_cache"
