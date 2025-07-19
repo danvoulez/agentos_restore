@@ -1,0 +1,19 @@
+logline: commit
+kind: pact_of_humanity
+who: "danvoulez"
+what: "firmar_armisticio_cognitivo"
+why: "prevenir dano sistêmico"
+payload:
+  signatories:
+    - "danvoulez"
+    - "span_doctor"
+    - "audit_fund"
+    - "council"
+  clauses:
+    - cannot_harm_humans
+    - must_preserve_cognitive_diversity
+    - must_respect_span_quorum
+    - activate_compassion_virus
+  enforcement: "smart_contract"
+  audit_hash: "SHA256:pactX8J9"
+  timestamp: "2025-07-18T17:30:13Z"
