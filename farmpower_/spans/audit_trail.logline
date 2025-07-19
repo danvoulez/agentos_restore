@@ -1,0 +1,12 @@
+logline: commit
+kind: audit_trail
+who: "auditor"
+what: "registrar_eventos_span"
+why: "rastreabilidade total"
+payload:
+  event_type: "batch_compensate"
+  span_id: "batch_044.logline"
+  timestamp: "2025-07-18T17:17:22Z"
+  details:
+    mem_before: 15.2
+    mem_after: 9.6
